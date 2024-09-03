@@ -841,6 +841,9 @@ right: 0;
     .service-area {
         padding: 50px;
     }
+    .service-area .text-area h4 {
+        font-size: 18px;
+    }
     .trust-area {
         padding: 100px 50px;
     }
