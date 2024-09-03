@@ -371,7 +371,7 @@ bottom: -5%;
     margin-top: 66px;
 }
 .product-info p{
-    width: 529px;
+    width: 600px;
     margin: 30px 0 30px 0;
     font-size: 14px;
 }
@@ -803,16 +803,180 @@ right: 0;
 }
 
 @media screen and (min-width:1367px) and (max-width:1600px) {
-    .approach-area {
-        padding:40px;
-    }
+   
        
 }
 
 
 @media screen and (min-width:1024px) and (max-width:1366px) {
+    h2 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 26px;
+        color: rgba(113, 128, 150, 1);
+    }
     
+    .banner-area {
+        padding: 50px;
        
+    }
+    .banner-info .heading-area h1 {
+        font-size: 40px;
+        line-height: 61px;
+    
+    }   
+    .banner-info .heading-area p {
+        width: 400px;
+    }
+    .banner-info .heading-img {
+       margin-top: 88px;
+    }
+    .service-area {
+        padding: 50px;
+    }
+    .trust-area {
+        padding: 100px 50px;
+    }
+    .trust-area .text-area {
+        width: 700px;
+        margin-right: 50px;
+    }
+    .customer-area {
+        padding: 50px 100px;
+    }
+    .case-studies-area {
+        padding:50px;
+        
+    }
+    .product-area .product-img {
+        height: 375px;
+        margin-right: 0;
+    }
+    .product-info{
+        padding: 0 40px 40px 40px;
+    }
+    .product-info h3 {
+        margin-top: 36px;
+    }
+    .product-info p {
+        width: 300px;
+        margin: 20px 0 20px 0;
+    }
+    .building-area {
+        padding:50px;
+    }
+    
+    .team-area .team-info {
+        width: 400px;
+        margin-right: 40px;
+    }
+    .info-bottom span {
+        font-size: 14px;
+        width: 380px;
+    }
+    .team-img {
+        width: 575px;
+        margin-right: 20px;
+    }
+    .resources-area {
+        padding: 40px 80px 0 80px;
+    }
+    .resources-bottom {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .resources-bottom .resouces-box {
+        width: 318px;
+        height: 315px;
+        border-radius: 30px;
+        margin-bottom: 40px;
+    }
+    .resources-bottom .resouces-box img{
+        width: 318px;
+    }
+    .footer-top {
+        padding: 0 40px;
+    }
+    .footer-menu ul li a {
+        line-height: 25px;
+    }
+    .footer-menu{
+        margin-right: 20px;
+    }
+    .f-info p{
+        width: 250px;
+    }
+    .social-media {
+        bottom: 22%;
+    }
+    .approach-area {
+        padding: 40px;
+    
+    }
+    .approach-bottom-area .a-part {
+        width: 450px;
+    
+    }
+    h5 {
+        font-size: 18px;
+        line-height: 17px;
+    }
+    .right-info p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+    .a-part .a-info {
+        padding: 20px;
+    }
+   .teck-stack-area {
+        padding: 40px;
+    }
+    .development-area {
+        padding: 40px 40px 0 40px;
+    }
+         .dev-area {
+            display: flex;
+             
+         }
+         .dev-area .dev-box {
+            width: 220px;
+             border: 1px solid #E7DAED;
+             margin:0 20px 0 20px ;
+         }
+         .line2 {
+            width: 2px;
+            height: 30px;
+            background-image: linear-gradient(30deg, #57007B, #F76680);
+            margin: 0 130px;
+        }
+        
+         .development-area .heading h2 {
+             font-size: 24px;
+             line-height: 35px;
+             margin-top: 10px;
+             margin-bottom: 40px;
+         }
+         .dev-area .dev-box .text {
+             font-size: 12px;
+         }
+         .dev-area .dev-box p {
+             font-size: 10px;
+             line-height: 20px;
+            
+         }
+         .box-text {
+            padding: 14px 10px;
+        }
+        
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
     h2{
@@ -986,7 +1150,7 @@ right: 0;
     }
     .team-img {
         width: 400px;
-        margin-right: 0;
+        margin-right: 20px;
     }
     .team-area p {
         margin-top: 15px;
@@ -995,6 +1159,10 @@ right: 0;
             width: 350px;
             margin-right: 20px;
 }    
+.team-area {
+   
+    margin: 73px 0 35px 0;
+}
 
 .development-area {
     padding: 20px;
@@ -1004,9 +1172,9 @@ right: 0;
          
      }
      .dev-area .dev-box {
-        width: 200px;
+        width: 160px;
          border: 1px solid #E7DAED;
-         margin: 20px ;
+         margin:0 20px 0 20px ;
      }
      .line2 {
         width: 2px;
@@ -1014,16 +1182,7 @@ right: 0;
         background-image: linear-gradient(30deg, #57007B, #F76680);
         margin: 0 100px;
     }
-     .border-area {
-       
-     }
-     .line {
-       
-     }
-     .opposite {
-        display: flex;
-        flex-direction: inherit;
-    }
+    
      .development-area .heading h2 {
          font-size: 24px;
          line-height: 35px;
@@ -1031,13 +1190,16 @@ right: 0;
          margin-bottom: 40px;
      }
      .dev-area .dev-box .text {
-         font-size: 14px;
+         font-size: 12px;
      }
      .dev-area .dev-box p {
-         font-size: 12px;
+         font-size: 10px;
          line-height: 20px;
         
      }
+     .box-text {
+        padding: 14px 10px;
+    }
     
 
 
