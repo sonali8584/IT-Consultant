@@ -979,6 +979,9 @@ right: 0;
          .box-text {
             padding: 14px 10px;
         }
+        .hire-area .heading h2 {
+            width: 400px;
+        }
         
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
